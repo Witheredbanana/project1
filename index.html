@@ -4,86 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Construct</title>
-    <!-- Подключение Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Подключение файла CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Food Construct</h1>
+            <nav>
+                <a href="#">О нас</a>
+                <a href="#">Собрать ланч</a>
+                <a href="#">Заказы</a>
+                <a href="#footer">Контакты</a>
+            </nav>
+        </div>
+    </header>
 
-<!-- Шапка сайта -->
-<header>
-    <h1>Food Construct</h1>
-    <nav>
-        <a href="#about">О нас</a>
-        <a href="#order">Собрать ланч</a>
-        <a href="#menu">Заказы</a>
-        <a href="#contacts">Контакты</a>
-    </nav>
-</header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <img src="food.jpeg" alt="Еда в коробках">
+                <h2>О нас</h2>
+                <p>Food Construct - доставка бизнес-ланчей в Москве. Мы привезем вам горячую вкусную еду в любую точку города к назначенному времени.</p>
+            </div>
+        </section>
 
-<!-- Основное содержимое страницы -->
-<main>
-    <!-- Блок с информацией о компании -->
-    <section id="about">
-        <img src="image.jpg" alt="О компании">
-        <h2>О нас</h2>
-        <p>Food Food Construct - доставка бизнес-ланчей в Москве. Мы привезем вам горячую вкусную еду в любую точку города к назначенному времени.</p>
-    </section>
+        <section class="advantages">
+            <div class="container">
+                <h2>Преимущества Food Construct</h2>
+                <ul>
+                    <li>Привозим обед к назначенному времени без опозданий</li>
+                    <li>Надежно упаковываем блюда в удобные контейнеры бесплатно</li>
+                    <li>Доставляем ланчи весь день с 7:00 до 23:00</li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Блок с преимуществами компании -->
-    <section id="advantages">
-        <h2>Преимущества Food Construct</h2>
-        <ul>
-            <li>Привозим обед к назначенному времени без опозданий</li>
-            <li>Надежно упаковываем блюда в удобные контейнеры бесплатно</li>
-            <li>Доставляем ланчи весь день с 7:00 до 23:00</li>
-        </ul>
-    </section>
+        <section class="popular-dishes">
+            <div class="container">
+                <h2>Топ-5 популярных блюд</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Название</th>
+                            <th>Кол-во заказов в неделю</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Лазанья</td>
+                            <td>185</td>
+                            <td>385P</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Том Ям с креветками</td>
+                            <td>161</td>
+                            <td>365P</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Норвежский суп</td>
+                            <td>144</td>
+                            <td>270P</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Жареная картошка с грибами</td>
+                            <td>132</td>
+                            <td>150P</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Котлеты из курицы с картофельным пюре</td>
+                            <td>128</td>
+                            <td>225P</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
 
-    <!-- Блок с самыми популярными блюдами -->
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Кол-во заказов в неделю</th>
-                <th>Цена</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Лазанья</td>
-                <td>185</td>
-                <td>385</td>
-            </tr>
-            <tr>
-                <td>Том Ям с креветками</td>
-                <td>161</td>
-                <td>365</td>
-            </tr>
-            <tr>
-                <td>Норвежский суп</td>
-                <td>144</td>
-                <td>270</td>
-            </tr>
-            <tr>
-                <td>Жареная картошка с грибами</td>
-                <td>132</td>
-                <td>150</td>
-            </tr>
-            <tr>
-                <td>Котлеты из курицы с картофельным пюре</td>
-                <td>128</td>
-                <td>225</td>
-            </tr>
-        </tbody>
-    </table>    
-    
-
-<!-- Футер с контактными данными -->
-<footer id="contacts">
-    <p>Позвонить нам <a href="tel:+7000000000">+7-000-000-00-00</a>.</p>
-</footer>
-
+    <footer id="footer">
+        <div class="container">
+            <p>Позвонить нам: +7-000-000-00-00</p>
+        </div>
+    </footer>
 </body>
 </html>
