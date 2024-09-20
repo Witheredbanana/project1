@@ -26,7 +26,6 @@ header h1 {
 }
 
 nav {
-  background-color: #eb7734;
   display: flex;
   justify-content: center;
   gap: 20px;
